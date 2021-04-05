@@ -1,0 +1,24 @@
+PackageIdentifier: Kaspersky.SecurityCloud
+Publisher: Kaspersky
+PackageName: Kaspersky Security Cloud
+PackageVersion: 4.021.3.10.391
+License: Kaspersky EULA
+InstallerType: exe
+LicenseUrl: https://www.kaspersky.com/end-user-license-agreement
+Moniker: SecurityCloud
+Tags:
+- Kaspersky
+ShortDescription: Kaspersky Security Cloud - Free - EU/GDPR
+PackageUrl: https://www.kaspersky.com/
+Installers:
+- Architecture: x86
+  InstallerType: exe
+  InstallerUrl: https://raw.githubusercontent.com/RavenMacDaddy/winget-pkgs/master/files/ks4.021.3.10.391sv_24986.exe
+  InstallerSha256: B5E0E6D2E5BBA57E634B6BD6E2B3ABC909A53A91DB8260B7241F918A90B9130D
+  InstallerLocale: Swe
+  InstallerSwitches:
+    Silent: /quiet /norestart
+    SilentWithProgress: /passive /norestart
+PackageLocale: se-Sweden
+ManifestType: singleton
+ManifestVersion: 1.0.0

@@ -1,1 +1,1 @@
-# winget-apps
+# Winget apps

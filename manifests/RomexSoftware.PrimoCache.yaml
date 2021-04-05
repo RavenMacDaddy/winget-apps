@@ -4,19 +4,20 @@ PackageName: PrimoCache
 PackageVersion: 4.021.3.10.391
 License: PrimoCache EULA
 InstallerType: exe
-Moniker: SecurityCloud
+Moniker: PrimoCache
 Tags:
-- Kaspersky
-ShortDescription: Kaspersky Security Cloud
-PackageUrl: https://www.kaspersky.com/
+- Romex Software
+- PrimoCache
+ShortDescription: Excellent Software Caching Solution to Accelerate Storage
+PackageUrl: https://www.romexsoftware.com/en-us/primo-cache/index.html
 Installers:
-- Architecture: x86
+- Architecture: x64
   InstallerType: exe
-  InstallerUrl: https://raw.githubusercontent.com/RavenMacDaddy/winget-apps/main/files/ks4.021.3.10.391sv_24986.exe
-  InstallerSha256: B5E0E6D2E5BBA57E634B6BD6E2B3ABC909A53A91DB8260B7241F918A90B9130D
-  InstallerLocale: Swe
+  InstallerUrl: https://raw.githubusercontent.com/RavenMacDaddy/winget-apps/main/files/PrimoCache.Setup.4.1.0.exe
+  InstallerSha256: DF883FA919438B0B0C390854B5E2A912435B6477A5F22C737385AFBBC8E931DC
+  InstallerLocale: En
   InstallerSwitches:
-    Silent: /s
-PackageLocale: swe-Sweden
+    Silent: /VERYSILENT /NORESTART
+PackageLocale: en-US
 ManifestType: singleton
 ManifestVersion: 1.0.0

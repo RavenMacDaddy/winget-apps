@@ -13,7 +13,7 @@ PackageUrl: https://www.romexsoftware.com/en-us/primo-cache/index.html
 Installers:
 - Architecture: x64
   InstallerType: exe
-  InstallerUrl: https://raw.githubusercontent.com/RavenMacDaddy/winget-apps/main/files/PrimoCache.Setup.4.1.0.exe
+  InstallerUrl: https://raw.githubusercontent.com/RavenMacDaddy/winget-apps/main/files/PrimoCache/PrimoCache.Setup.4.1.0.exe
   InstallerSha256: DF883FA919438B0B0C390854B5E2A912435B6477A5F22C737385AFBBC8E931DC
   InstallerLocale: En
   InstallerSwitches:

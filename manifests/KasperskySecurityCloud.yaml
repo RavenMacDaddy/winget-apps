@@ -13,12 +13,11 @@ PackageUrl: https://www.kaspersky.com/
 Installers:
 - Architecture: x86
   InstallerType: exe
-  InstallerUrl: https://raw.githubusercontent.com/RavenMacDaddy/winget-apps/main/files/ks4.021.3.10.391en_25092.exe
+  InstallerUrl: https://raw.githubusercontent.com/RavenMacDaddy/winget-apps/main/files/Kaspersky%20Security%20Cloud/ks4.021.3.10.391en_25092.exe
   InstallerSha256: F94439C32C298493449B90A45B3A72F77CD2FB198034ABFC849E1753397D84CB
   InstallerLocale: En
   InstallerSwitches:
-    Silent: /quiet /norestart
-    SilentWithProgress: /passive /norestart
+    Silent: /s /mybirthdate=1980-01-01 /pSKIPPRODUCTCHECK=1 /pALLOWREBOOT=0 
 PackageLocale: en-US
 ManifestType: singleton
 ManifestVersion: 1.0.0

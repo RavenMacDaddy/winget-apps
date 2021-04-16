@@ -1,0 +1,17 @@
+PackageIdentifier: Files-Community.Files
+Publisher: Files-Community
+PackageName: Files
+ShortDescription: Meet Files, an enthusiast take on what Windows File Explorer explorer should be.
+Moniker: files
+PackageUrl: https://github.com/files-community/Files
+License: LGPL-3.0
+LicenseUrl: https://github.com/files-community/Files/blob/master/LICENSE
+PackageVersion: 1.5
+InstallerType: msix
+Installers:
+- Architecture: neutral
+  InstallerUrl: https://github.com/files-community/Files/releases/download/v1.5/Files-1.5.Msixbundle
+  InstallerSha256: 0209aab62bf751b9ff5a73c3063c84b5cdbc912c74089ea9d8fc79c0a2e3e536
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
